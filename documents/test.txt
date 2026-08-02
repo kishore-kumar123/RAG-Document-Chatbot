@@ -1,0 +1,1 @@
+My name is Kishore.I am learning python and building a RAG chatbot using Gemini and LangChain. This is a test document.
