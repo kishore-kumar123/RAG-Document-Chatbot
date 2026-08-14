@@ -281,14 +281,6 @@ with st.sidebar:
     st.header("📁 Upload Documents")
 
     # 1. Persistent storage warning
-    st.warning(
-        "⚠️ On Streamlit Cloud's free tier, storage is ephemeral — "
-        "the chroma_db folder resets whenever the app restarts/sleeps. "
-        "For production use, connect a persistent vector DB (e.g. hosted "
-        "Chroma, Pinecone, or a mounted volume).",
-        icon="⚠️",
-    )
-
     st.divider()
 
     # 5. Chunk size tuning
